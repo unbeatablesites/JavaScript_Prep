@@ -1,6 +1,9 @@
 body {
   background: #777;
-  font-family: 'Arial';
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: '#777';
+  width: '960px';
+  font-size: '18px';
 }
 
 header {
