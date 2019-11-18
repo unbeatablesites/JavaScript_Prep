@@ -7,9 +7,10 @@ body {
 }
 
 header,
-nav {
+nav,
+footer {
   text-align: center;
   background-color: #ebebeb;
   font-size: 100px;
-  width: m;
+  margin: 10px;
 }
