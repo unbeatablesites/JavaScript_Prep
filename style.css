@@ -6,7 +6,9 @@ body {
   font-size: '18px';
 }
 
-header {
+header,
+nav {
+  text-align: center;
   background-color: #ebebeb;
   font-size: 100px;
   width: m;
