@@ -12,6 +12,8 @@ console.log(age);
 
 alert(age);
 
+prompt('What is your name :)');
+
 // var lastName = 'Uzoka';
 
 // console.log(firstName + ' ' + lastName + ' ' + age);
