@@ -1,25 +1,14 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
+var firstName = 'Frank';
+var lastName = 'Uzoka';
+var age = 35;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(firstName + ' ' + lastName + ' ' + age);
 
 ///////////////////////////////////////
 // Lecture: Scoping
-
 
 // First scoping example
 
@@ -37,8 +26,6 @@ function first() {
     }
 }
 */
-
-
 
 // Example to show the differece between execution stack and scope chain
 
@@ -62,16 +49,5 @@ function third() {
 }
 */
 
-
-
 ///////////////////////////////////////
 // Lecture: The this keyword
-
-
-
-
-
-
-
-
-
