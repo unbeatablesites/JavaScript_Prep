@@ -9,8 +9,14 @@ var frank = {
 
 console.log(frank.firstName);
 console.log(frank['lastName']);
-var x = frank.birthYear;
+var x = 'birthYear';
 console.log(frank[x]);
+
+frank.job = 'Designer';
+
+console.log(frank.job);
+
+console.log(frank);
 
 // function tipCalculator(bill) {
 //   var percentage;
