@@ -10,6 +10,8 @@ age = 'Twenty five';
 
 console.log(age);
 
+alert(age);
+
 // var lastName = 'Uzoka';
 
 // console.log(firstName + ' ' + lastName + ' ' + age);
