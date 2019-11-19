@@ -6,8 +6,15 @@ var yearFrank = 1989;
 var fullAge = 18;
 
 var isFullAge = now - yearFrank >= fullAge;
+var yearMike = 1990;
+var ageFrank = now - yearFrank;
+var ageMike = now - yearMike;
 
 console.log(isFullAge);
+
+var averageBetween = ageMike + ageFrank / 2;
+
+console.log(averageBetween);
 
 // var frankYear = 1984;
 // var year = 2019;
