@@ -3,7 +3,7 @@ function tipCalculator(bill) {
 
   if (bill < 50) {
     percentage = 0.2;
-  } else if (bill <= 50 && bill < 200) {
+  } else if (bill >= 50 && bill < 200) {
     percentage = 0.15;
   } else {
     percentage = 0.1;
@@ -12,4 +12,4 @@ function tipCalculator(bill) {
 }
 
 tipCalculator(48);
-console.log(tipCalculator(48));
+console.log(tipCalculator(100));
