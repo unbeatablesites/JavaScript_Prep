@@ -1,20 +1,27 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
-var firstName = 'Frank';
-var age = 35;
+var frankYear = 1984;
+var year = 2019;
+
+var age = year - frankYear;
 
 console.log(age);
 
-age = 'Twenty five';
+// var firstName = 'Frank';
+// var age = 35;
 
-console.log(age);
+// console.log(age);
 
-alert(age);
+// age = 'Twenty five';
 
-var lastName = prompt('What is your name :)');
+// console.log(age);
 
-console.log(lastName);
+// alert(age);
+
+// var lastName = prompt('What is your name :)');
+
+// console.log(lastName);
 // var lastName = 'Uzoka';
 
 // console.log(firstName + ' ' + lastName + ' ' + age);
