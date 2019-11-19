@@ -16,10 +16,12 @@ if (mikeAverage > johnAverage) {
   console.log(
     "Mikes's team has the higher average!" + mikeAverage + 'on average'
   );
-} else {
+} else if (johnAverage > mikeAverage) {
   console.log(
     "John's team has the higher average! They scored " +
       johnAverage +
       'on average'
   );
+} else {
+  console.log('Both teams tied in average');
 }
