@@ -1,9 +1,16 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
-// var firstName = 'Frank';
+var firstName = 'Frank';
+var age = 35;
+
+console.log(age);
+
+age = 'Twenty five';
+
+console.log(age);
+
 // var lastName = 'Uzoka';
-// var age = 35;
 
 // console.log(firstName + ' ' + lastName + ' ' + age);
 
