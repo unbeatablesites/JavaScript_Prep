@@ -1,11 +1,16 @@
 var frank = {
-  name: 'Frank',
+  firstName: 'Frank',
   lastName: 'Smith',
   birthYear: 1984,
   familyMembers: ['Ike', 'Katie', 'John', 'Vicky'],
   job: 'developer',
   isMarried: true
 };
+
+console.log(frank.firstName);
+console.log(frank['lastName']);
+var x = frank.birthYear;
+console.log(frank[x]);
 
 // function tipCalculator(bill) {
 //   var percentage;
