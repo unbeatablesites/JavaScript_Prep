@@ -1,11 +1,24 @@
 var firstName = 'Frank';
-var status = 'married';
+var age = 35;
 
-if (status) {
-  console.log('Is ' + firstName + ' Married ' + true);
+if (age < 13) {
+  console.log(firstName + 'is a boy');
+} else if (age >= 13 && age < 20) {
+  console.log(firstName + ' is a teenager');
+} else if (age >= 20 && age > 30) {
+  console.log(firstName + ' is a young man');
 } else {
-  console.log('Will mary soon');
+  console.log(firstName + ' is a man');
 }
+
+// var firstName = 'Frank';
+// var status = 'married';
+
+// if (status) {
+//   console.log('Is ' + firstName + ' Married ' + true);
+// } else {
+//   console.log('Will mary soon');
+// }
 
 // var johnsHeight, marksHeight, johnsMass, markMass;
 
