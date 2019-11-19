@@ -10,3 +10,6 @@ function tipCalculator(bill) {
   }
   return percentage * bill;
 }
+
+tipCalculator(48);
+console.log(tipCalculator(48));
