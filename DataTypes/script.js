@@ -1,4 +1,4 @@
-function tipCalculator(tipA, tipB, tipC) {}
+function tipCalculator(bill) {}
 
 // var familyBill = [124, 48, 268];
 
