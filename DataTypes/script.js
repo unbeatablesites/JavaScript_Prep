@@ -1,21 +1,29 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
-var frankYear = 1984;
-var year = 2019;
+var now = 2018;
+var yearFrank = 1989;
+var fullAge = 18;
 
-var ageFrank = 35;
-var ageMike = 26;
+var isFullAge = now - yearFrank >= fullAge;
 
-var age = year - frankYear;
+console.log(isFullAge);
 
-console.log(age);
+// var frankYear = 1984;
+// var year = 2019;
 
-var frankOlder = ageFrank > ageMike;
-var mikeOlder = ageMike > ageFrank;
+// var ageFrank = 35;
+// var ageMike = 26;
 
-console.log(frankOlder);
-console.log(mikeOlder);
+// var age = year - frankYear;
+
+// console.log(age);
+
+// var frankOlder = ageFrank > ageMike;
+// var mikeOlder = ageMike > ageFrank;
+
+// console.log(frankOlder);
+// console.log(mikeOlder);
 
 // var firstName = 'Frank';
 // var age = 35;
