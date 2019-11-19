@@ -1,3 +1,3 @@
-var whatDoYouDo = function(job, firstName) {};
+// function whatDoYouDo(job, firstName) {}
 
-function whatDoYouDo(job, firstName) {}
+var whatDoYouDo = function(job, firstName) {};
