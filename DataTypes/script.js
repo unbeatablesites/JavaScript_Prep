@@ -11,6 +11,9 @@ var fullAge = true;
 
 console.log(fullAge);
 
+var job;
+console.log(job);
+
 ///////////////////////////////////////
 // Lecture: Scoping
 
