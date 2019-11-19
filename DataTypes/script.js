@@ -10,9 +10,12 @@ var yearMike = 1990;
 var ageFrank = now - yearFrank;
 var ageMike = now - yearMike;
 
+console.log(ageFrank);
+console.log(ageMike);
+
 console.log(isFullAge);
 
-var averageBetween = ageMike + ageFrank / 2;
+var averageBetween = (ageMike + ageFrank) / 2;
 
 console.log(averageBetween);
 
