@@ -1,2 +1,5 @@
 var names = ['Frank', 'Mike', 'John'];
-var names = [1984, 1969, 1948];
+var years = [1984, 1969, 1948];
+
+console.log(names[0]);
+console.log(names.length);
