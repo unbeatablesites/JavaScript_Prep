@@ -12,4 +12,19 @@ function tipCalculator(bill) {
 }
 
 tipCalculator(48);
-console.log(tipCalculator(100));
+console.log(tipCalculator(10));
+
+var bill = [124, 48, 268];
+var tip = [
+  tipCalculator(bill[0]),
+  tipCalculator(bill[1]),
+  tipCalculator(bill[2])
+];
+
+console.log(tip);
+var finalValue = [
+  tipCalculator(bill[0]) + bill[0],
+  tipCalculator(bill[1]) + bill[1],
+  tipCalculator(bill[2]) + bill[2]
+];
+console.log(finalValue);
