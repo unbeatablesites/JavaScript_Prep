@@ -10,12 +10,3 @@ function tipCalculator(bill) {
   }
   return percentage * bill;
 }
-
-// var familyBill = [124, 48, 268];
-
-// var allThreeTips = function(familyBill)
-
-// console.log(familyBill);
-
-// console.log(function(allThreeTips));
-// console.log(function(allThreeTotals))
