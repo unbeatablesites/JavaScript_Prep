@@ -1,9 +1,9 @@
 var firstName = 'Frank';
-var age = 17;
+var age = 35;
 
 var drink = age > 18 ? 'can drink beer' : 'can drink juice';
 
-console.log(drink);
+console.log(firstName + ' ' + drink);
 
 // var firstName = 'Frank';
 // var age = 35;
