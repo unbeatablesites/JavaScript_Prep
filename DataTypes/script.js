@@ -1,8 +1,8 @@
-var johnGame1 = 89;
+var johnGame1 = 189;
 var johnGame2 = 120;
 var johnGame3 = 103;
 
-var mikesGame1 = 116;
+var mikesGame1 = 129;
 var mikesGame2 = 94;
 var mikesGame3 = 123;
 
@@ -30,10 +30,13 @@ if (mikeAverage > johnAverage && mikeAverage > maryAverage) {
   );
 } else if (maryAverage > mikeAverage && maryAverage > johnAverage) {
   console.log(
-    "John's team has the higher average! They scored " +
+    "Mary's team has the higher average! They scored " +
       maryAverage +
       ' on average'
   );
 } else {
   console.log('Two or more teams tied in average');
 }
+console.log(mikeAverage + ' Mike');
+console.log(johnAverage + ' John');
+console.log(maryAverage + ' Mary');
