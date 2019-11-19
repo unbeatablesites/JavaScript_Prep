@@ -1,16 +1,19 @@
 var frank = {
   firstName: 'Frank',
   lastName: 'Smith',
-  birthYear: 1989,
+  birthYear: 1984,
   familyMembers: ['Ike', 'Katie', 'John', 'Vicky'],
   job: 'developer',
   isMarried: true,
-  calcAge: function(birthYear) {
-    return 2019 - this.birthYear;
+  calcAge: function() {
+    this.age = 2019 - this.birthYear;
   }
 };
 
-console.log(frank.calcAge());
+frank.calcAge();
+
+console.log(frank);
+
 // console.log(frank.firstName);
 // console.log(frank['lastName']);
 // var x = 'birthYear';
