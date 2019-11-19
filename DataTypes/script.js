@@ -1,23 +1,23 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
-var firstName = 'Frank';
-var lastName = 'Uzoka';
-var age = 35;
+// var firstName = 'Frank';
+// var lastName = 'Uzoka';
+// var age = 35;
 
-console.log(firstName + ' ' + lastName + ' ' + age);
+// console.log(firstName + ' ' + lastName + ' ' + age);
 
-var fullAge = true;
+// var fullAge = true;
 
-console.log(fullAge);
+// console.log(fullAge);
 
-var job;
-// variable not declared yet
-console.log(job);
+// var job;
+// // variable not declared yet
+// console.log(job);
 
-job = 'Developer';
+// job = 'Developer';
 
-console.log(job);
+// console.log(job);
 
 ///////////////////////////////////////
 // Lecture: Scoping
