@@ -1,3 +1,12 @@
+var frank = {
+  name: 'Frank',
+  lastName: 'Smith',
+  birthYear: 1984,
+  familyMembers: ['Ike', 'Katie', 'John', 'Vicky'],
+  job: 'developer',
+  isMarried: true
+};
+
 // function tipCalculator(bill) {
 //   var percentage;
 
