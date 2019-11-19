@@ -10,7 +10,10 @@ var ageMike = 26;
 var age = year - frankYear;
 
 console.log(age);
-console.log(ageFrank > ageMike);
+
+var frankOlder = ageFrank > ageMike;
+
+console.log(frankOlder);
 console.log(ageMike > ageFrank);
 
 // var firstName = 'Frank';
