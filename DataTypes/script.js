@@ -12,8 +12,9 @@ console.log(age);
 
 alert(age);
 
-prompt('What is your name :)');
+var lastName = prompt('What is your name :)');
 
+console.log(lastName);
 // var lastName = 'Uzoka';
 
 // console.log(firstName + ' ' + lastName + ' ' + age);
