@@ -1,5 +1,5 @@
 var frankFamilyBill1 = 124;
-var familyBill = 48;
+var familyBill = 300;
 var frankFamilyBill3 = 268;
 
 if (familyBill < 50) {
