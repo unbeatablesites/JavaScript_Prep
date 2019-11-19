@@ -1,15 +1,20 @@
 var job = 'cop';
 var firstName = 'Frank';
+var age = 35;
 
-switch (job) {
-  case 'developer':
-    console.log(firstName + ' makes software');
+switch (true) {
+  case age < 13:
+    console.log(firstName + ' is a boy');
     break;
 
-  case 'teacher':
-    console.log(firstName + ' teaches students');
+  case age >= 13 && age < 20:
+    console.log(firstName + ' is a teenager');
+    break;
+
+  case age >= 20 && age < 30:
+    console.log(firstName + ' is a young man');
     break;
 
   default:
-    console.log('not sure what you do');
+    console.log(firstName + ' is a man');
 }
