@@ -1,3 +1,5 @@
+function tipCalculator(tipA, tipB, tipC) {}
+
 // var familyBill = [124, 48, 268];
 
 // var allThreeTips = function(familyBill)
