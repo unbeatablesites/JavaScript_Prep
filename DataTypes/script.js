@@ -1,20 +1,10 @@
-var job = 'cop';
-var firstName = 'Frank';
-var age = 35;
+var johnsTeamScores = johnGame1 + johnGame2 + johnGame3;
+var mikesTeamScores = mikesGame1 + mikesGame2 + mikesGame3;
 
-switch (true) {
-  case age < 13:
-    console.log(firstName + ' is a boy');
-    break;
+var johnGame1 = 89;
+var johnGame2 = 120;
+var johnGame3 = 103;
 
-  case age >= 13 && age < 20:
-    console.log(firstName + ' is a teenager');
-    break;
-
-  case age >= 20 && age < 30:
-    console.log(firstName + ' is a young man');
-    break;
-
-  default:
-    console.log(firstName + ' is a man');
-}
+var mikesGame1 = 116;
+var mikesGame2 = 94;
+var mikesGame3 = 123;
