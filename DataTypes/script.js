@@ -12,6 +12,11 @@ var fullAge = true;
 console.log(fullAge);
 
 var job;
+// variable not declared yet
+console.log(job);
+
+job = 'Developer';
+
 console.log(job);
 
 ///////////////////////////////////////
