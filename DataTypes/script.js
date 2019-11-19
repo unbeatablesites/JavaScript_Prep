@@ -4,9 +4,13 @@
 var frankYear = 1984;
 var year = 2019;
 
+var ageFrank = 35;
+var ageMike = 26;
+
 var age = year - frankYear;
 
 console.log(age);
+console.log(ageFrank > ageMike);
 
 // var firstName = 'Frank';
 // var age = 35;
