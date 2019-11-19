@@ -1,111 +1,12 @@
-///////////////////////////////////////
-// Lecture: Hoisting
+var johnsHeight, marksHeight, johnsMass, markMass;
 
-// var now = 2018;
-// var yearFrank = 1984;
-// var fullAge = 18;
+johnBMI = johnsMass / (johnsHeight * johnsHeight);
+markBMI = markMass / (marksHeight * marksHeight);
 
-// var isFullAge = now - yearFrank >= fullAge;
-// var yearMike = 1984;
-// var ageFrank = now - yearFrank;
-// var ageMike = now - yearMike;
+// BMI = mass/ height * height;1
 
-// console.log(ageFrank);
-// console.log(ageMike);
-
-// console.log(isFullAge);
-
-// var averageBetween = (ageMike + ageFrank) / 2;
-
-// console.log(averageBetween);
-
-// var frankYear = 1984;
-// var year = 2019;
-
-// var ageFrank = 35;
-// var ageMike = 26;
-
-// var age = year - frankYear;
-
-// console.log(age);
-
-// var frankOlder = ageFrank > ageMike;
-// var mikeOlder = ageMike > ageFrank;
-
-// console.log(frankOlder);
-// console.log(mikeOlder);
-
-// var firstName = 'Frank';
-// var age = 35;
-
-// console.log(age);
-
-// age = 'Twenty five';
-
-// console.log(age);
-
-// alert(age);
-
-// var lastName = prompt('What is your name :)');
-
-// console.log(lastName);
-// var lastName = 'Uzoka';
-
-// console.log(firstName + ' ' + lastName + ' ' + age);
-
-// var fullAge = true;
-
-// console.log(fullAge);
-
-// var job;
-// // variable not declared yet
-// console.log(job);
-
-// job = 'Developer';
-
-// console.log(job);
-
-///////////////////////////////////////
-// Lecture: Scoping
-
-// First scoping example
-
-/*
-var a = 'Hello!';
-first();
-
-function first() {
-    var b = 'Hi!';
-    second();
-
-    function second() {
-        var c = 'Hey!';
-        console.log(a + b + c);
-    }
+if (markBMI > johnsMass) {
+  console.log('Markes BMI is greater');
+} else {
+  console.log('Johns Bmi is greater');
 }
-*/
-
-// Example to show the differece between execution stack and scope chain
-
-/*
-var a = 'Hello!';
-first();
-
-function first() {
-    var b = 'Hi!';
-    second();
-
-    function second() {
-        var c = 'Hey!';
-        third()
-    }
-}
-
-function third() {
-    var d = 'John';
-    console.log(a + b + c + d);
-}
-*/
-
-///////////////////////////////////////
-// Lecture: The this keyword
