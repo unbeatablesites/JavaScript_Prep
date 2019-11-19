@@ -3,10 +3,15 @@
 var whatDoYouDo = function(job, firstName) {
   switch (job) {
     case 'Teacher':
-      console.log('I teach students');
-      break;
+      return firstName + ' teaches students';
     case 'Developer':
-      console.log('I make apps');
-      break;
+      return firstName + ' makes apps';
+    case 'Designer':
+      return firstName + ' makes beautiful websites';
+    default:
+      return firstName + ' does somthing else';
   }
 };
+
+whatDoYouDo('teacher', 'Frank');
+console;
