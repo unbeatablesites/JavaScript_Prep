@@ -7,6 +7,10 @@ var age = 35;
 
 console.log(firstName + ' ' + lastName + ' ' + age);
 
+var fullAge = true;
+
+console.log(fullAge);
+
 ///////////////////////////////////////
 // Lecture: Scoping
 
