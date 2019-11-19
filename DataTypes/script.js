@@ -1,15 +1,22 @@
 var firstName = 'Frank';
-var age = 35;
+var age = 17;
 
-if (age < 13) {
-  console.log(firstName + 'is a boy');
-} else if (age >= 13 && age < 20) {
-  console.log(firstName + ' is a teenager');
-} else if (age >= 20 && age > 30) {
-  console.log(firstName + ' is a young man');
-} else {
-  console.log(firstName + ' is a man');
-}
+var drink = age > 18 ? 'can drink beer' : 'can drink juice';
+
+console.log(drink);
+
+// var firstName = 'Frank';
+// var age = 35;
+
+// if (age < 13) {
+//   console.log(firstName + ' is a boy');
+// } else if (age >= 13 && age < 20) {
+//   console.log(firstName + ' is a teenager');
+// } else if (age >= 20 && age < 30) {
+//   console.log(firstName + ' is a young man');
+// } else {
+//   console.log(firstName + ' is a man');
+// }
 
 // var firstName = 'Frank';
 // var status = 'married';
