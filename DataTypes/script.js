@@ -21,3 +21,11 @@ var john = {
 frank.calcBMI();
 john.calcBMI();
 console.log(frank, john);
+
+if (frank.bmi > john.bmi) {
+  console.log("Frank's BMI is higher");
+} else if (john.bmi > frank.bmi) {
+  console.log("John's bmi is higher");
+} else {
+  console.log('They are both the same');
+}
