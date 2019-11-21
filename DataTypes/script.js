@@ -19,3 +19,4 @@ var john = {
 };
 
 frank.calcBMI();
+john.calcBMI();
