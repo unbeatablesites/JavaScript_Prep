@@ -1,7 +1,7 @@
 var frank = {
   fullName: 'Frank Uzoka',
-  mass: 78,
-  height: 1.69,
+  mass: 92,
+  height: 195,
   calcBMI: function() {
     this.bmi = this.mass / (this.height * this.height);
     return this.bmi;
@@ -29,3 +29,4 @@ if (frank.bmi > john.bmi) {
 } else {
   console.log('They are both the same');
 }
+console.log(frank.bmi, john.bmi);
