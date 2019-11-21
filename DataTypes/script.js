@@ -3,6 +3,6 @@ var frank = {
   mass: 92,
   height: 195,
   calcBMI: function() {
-    this.mass / (this.height * this.height);
+    this.bmi = this.mass / (this.height * this.height);
   }
 };
