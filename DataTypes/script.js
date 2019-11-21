@@ -17,3 +17,5 @@ var john = {
     return this.bmi;
   }
 };
+
+frank.calcBMI();
