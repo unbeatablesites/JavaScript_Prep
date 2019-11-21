@@ -20,3 +20,4 @@ var john = {
 
 frank.calcBMI();
 john.calcBMI();
+console.log(frank, john);
