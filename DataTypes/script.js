@@ -1,7 +1,7 @@
 var frank = {
   fullName: 'Frank Uzoka',
-  mass: 92,
-  height: 195,
+  mass: 78,
+  height: 1.69,
   calcBMI: function() {
     this.bmi = this.mass / (this.height * this.height);
     return this.bmi;
