@@ -12,7 +12,7 @@ var frank = {
 
 frank.calcAge();
 
-console.log(frank);
+console.log(frank.familyMembers);
 
 // console.log(frank.firstName);
 // console.log(frank['lastName']);
